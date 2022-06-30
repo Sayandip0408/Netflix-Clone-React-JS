@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#root {
+  height: 100vh;
+}
+
+header {
+  background-image: url("/src/Netflix-Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  box-shadow: inset -35px -35px 300px black, inset -35px -35px 300px black;
+  border-bottom: 7px solid #222222;
+  position: relative;
+}
+
+#headerSec {
+  background-color: rgba(0, 0, 0, 0.638);
+  height: 750px;
+}
+
+.heading {
+  color: #e50914;
+  font-size: 50px;
+  margin: 0;
+  padding-left: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+#primaryP {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+  margin-top: 120px;
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+}
+
+#secondaryP {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#tertiaryP {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#input {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputBox {
+  height: 70px;
+  width: 30vw;
+  border: none;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  font-size: 17px;
+  padding: 0;
+  padding-left: 10px;
+}
+
+#inputBox:focus {
+  outline: none;
+}
+
+#getStarted {
+  height: 70px;
+  width: 15vw;
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #e30813;
+  color: white;
+  font-size: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#getStarted:hover {
+  background-color: #ff000d;
+  cursor: pointer;
+}
+
+#headingButtonSec {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+#lang {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+  height: 30px;
+  cursor: pointer;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#signin {
+  background-color: #e30813;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#deviceSec {
+  background-color: black;
+  border-bottom: 7px solid #222222;
+  display: flex;
+  text-align: center;
+}
+
+#deviceSecText {
+  width: 50vw;
+  height: 400px;
+  /* border: 1px solid white; */
+  padding: 0 100px 0 100px;
+  box-sizing: border-box;
+}
+
+#deviceSec #deviceSecText h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+
+#deviceSec #deviceSecText p {
+  color: white;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0;
+}
+
+#deviceSecImage {
+  width: 50vw;
+  height: 400px;
+  /* border: 1px solid white; */
+}
+
+#deviceSecImage img {
+  height: 350px;
+}
+
+#endComp {
+  border-bottom: 7px solid #222222;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#endComp h1 {
+  font-size: 40px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+#accord {
+  text-align: center;
+}
+
+.accordion {
+  background-color: #303030;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 55vw;
+  border: none;
+  text-align: left;
+  font-size: 28px;
+  transition: 1s;
+  margin: 5px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.panel {
+  background-color: #303030;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 55vw;
+  border: none;
+  text-align: left;
+  font-size: 28px;
+  transition: 0.4s;
+  margin-top: 5px;
+  font-family: 'Nunito Sans', sans-serif;
+  display: none;
+  margin: auto;
+  box-sizing: border-box;
+}

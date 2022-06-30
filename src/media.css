@@ -1,0 +1,267 @@
+@media(max-width: 1325px) {
+
+    header {
+        height: 650px;
+    }
+
+    #headerSec {
+        height: 650px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    #primaryP {
+        font-size: 60px;
+    }
+
+    #secondaryP {
+        font-size: 25px;
+    }
+
+    #tertiaryP {
+        font-size: 15px;
+    }
+
+    #inputBox {
+        width: 35vw;
+        height: 60px;
+        font-size: 15px;
+    }
+
+    #getStarted {
+        width: 20vw;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .accordion {
+        width: 65vw;
+        font-size: 25px;
+    }
+
+    .panel {
+        width: 65vw;
+        font-size: 23px;
+    }
+
+    #deviceSec #deviceSecText h1 {
+        font-size: 45px;
+    }
+
+    #deviceSec #deviceSecText p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 965px) {
+
+    #getStarted {
+        width: 20vw;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    #deviceSec {
+        display: block;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    #deviceSecText {
+        width: 100vw;
+        height: 200px;
+    }
+
+    #deviceSec #deviceSecText h1 {
+        font-size: 40px;
+    }
+
+    #deviceSec #deviceSecText p {
+        font-size: 17px;
+        box-sizing: border-box;
+    }
+
+    #deviceSecImage {
+        width: 100vw;
+        height: 400px;
+    }
+}
+
+@media (max-width: 785px) {
+    #inputBox {
+        width: 35vw;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    #getStarted {
+        width: 20vw;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 655px) {
+    header {
+        height: 550px;
+    }
+
+    #headerSec {
+        height: 550px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    #primaryP {
+        font-size: 45px;
+    }
+
+    #secondaryP {
+        font-size: 25px;
+    }
+
+    #tertiaryP {
+        font-size: 15px;
+    }
+
+    #deviceSec #deviceSecText h1 {
+        font-size: 33px;
+    }
+
+    #deviceSec #deviceSecText p {
+        font-size: 15px;
+    }
+
+    .accordion {
+        height: 50px;
+        font-size: 20px;
+        padding: 10px;
+        width: 80vw;
+    }
+
+    .panel {
+        font-size: 20px;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 555px) {
+    header {
+        height: 550px;
+    }
+
+    #headerSec {
+        height: 550px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    #primaryP {
+        font-size: 30px;
+    }
+
+    #secondaryP {
+        font-size: 18px;
+    }
+
+    #tertiaryP {
+        font-size: 13px;
+    }
+
+    #input {
+        display: block;
+        text-align: center;
+    }
+
+    #inputBox {
+        width: 80vw;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    #getStarted {
+        width: 30vw;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #deviceSecText {
+        width: 100vw;
+        height: 200px;
+    }
+
+    #deviceSec #deviceSecText h1 {
+        font-size: 30px;
+    }
+
+    #deviceSecImage {
+        width: 100vw;
+        height: 300px;
+    }
+
+    #deviceSecImage img {
+        height: 250px;
+    }
+
+    #endComp h1 {
+        font-size: 30px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .heading {
+        font-size: 30px;
+    }
+
+    #headingButtonSec {
+        position: absolute;
+        top: 13px;
+        right: 20px;
+    }
+
+    #lang {
+        font-size: 13px;
+        height: 25px;
+    }
+
+    #signin {
+        font-size: 14px;
+        height: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 20px;
+    }
+
+    #getStarted {
+        font-size: 15px;
+    }
+
+    .accordion {
+        font-size: 15px;
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .panel {
+        font-size: 15px;
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #deviceSecText {
+        padding: 0 10px 0 10px;
+    }
+
+}
